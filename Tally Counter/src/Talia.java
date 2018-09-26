@@ -20,4 +20,18 @@ public class Talia {
 		count += 1;
 		//or count++
 	}
+	public void unclick() {
+		//accomplishing a task, doesn't need a  return type
+		count -= 1;
+		//or count--
+	}
+	
+	public void reset() {
+		
+		count = 0;
+	}
+	
+	public int getCount() {
+		return count;
+	}
 }
